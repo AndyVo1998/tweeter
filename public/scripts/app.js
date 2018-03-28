@@ -1,37 +1,28 @@
-// $(document).ready(function() {
-//   var header = $(this).children("header");
-//   var h1 = $("header").children("h1");
-//   var username = $("header").children("h3");
-//   var img = $("header").children("img");
-//   // function addTweet(content) {
-//   //   if(content !== "") {
-//   //     $("article").append("<p>" + content + "<p>");
-//   //   }
-//   // }
+$(document).ready(function() {
+  function createTweetElement() {
 
-//   // function tweetSubmit(event) {
-//   //   var input = $(event.target.elements.text);
-//   //   addTweet(input.val());
-//   //   debugger;
-//   // }
+  }
 
-//   // $("form").on("submit", tweetSubmit);
+  const tweetData = {
+  "user": {
+    "name": "Newton",
+    "avatars": {
+      "small":   "https://vanillicon.com/788e533873e80d2002fa14e1412b4188_50.png",
+      "regular": "https://vanillicon.com/788e533873e80d2002fa14e1412b4188.png",
+      "large":   "https://vanillicon.com/788e533873e80d2002fa14e1412b4188_200.png"
+    },
+    "handle": "@SirIsaac"
+  },
+  "content": {
+    "text": "If I have seen further it is by standing on the shoulders of giants"
+  },
+  "created_at": 1461116232227
+}
 
+var $tweet = createTweetElement(tweetData);
 
-//   $("article").bind( "mouseover", function() {
-//     $(this).css({border: "1px solid black"});
-//     h1.css("color", "black");
-//     username.css("color", "black");
-//     img.css("opacity", "1");
-//   });
+// Test / driver code (temporary)
+console.log($tweet); // to see what it looks like
+$('#tweets-container').append($tweet); // to add it to the page so we can make sure it's got all the right elements, classes, etc.
+});
 
-//   $("article").bind( "mouseleave", function() {
-//     $(this).css({border: "1px solid #0000002e"});
-//     h1.css("color", "#244751a3");
-//     username.css("color", "#2447518a");
-//     img.css("opacity", "0.8");
-//   });
-// });
-
-
-// : 1px solid #0000002e;
