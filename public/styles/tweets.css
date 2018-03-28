@@ -13,6 +13,7 @@ header {
   height: 3em;
   width: 100%;
   border-radius: 10px 10px 0px 0px;
+  opacity: 0.7;
 }
 
 section textarea {
@@ -25,6 +26,7 @@ h1 {
   padding-left: 10px;
   float: left;
   font-size: 98%;
+  color: #244751a3;
 }
 
 section input {
@@ -42,6 +44,7 @@ h3 {
 footer {
   height: 2em;
   border-top: 1px solid #80808021;
+  opacity: 0.7;
 }
 
 h4 {
@@ -65,9 +68,28 @@ img {
  border-radius: 6px;
 }
 
+span {
+  opacity: 0;
+  float: right;
+  margin-top: 5px;
+}
+
+article:hover .test {
+  opacity: 1;
+}
 
 
+/*.test {
+  opacity: 1;
+}*/
+/*article:hover footer {
+  opacity: 1;
+}
 
+article:hover span {
+  opacity: 1;
+}
+*/
 
 
 
