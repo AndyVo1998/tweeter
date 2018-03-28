@@ -42,13 +42,13 @@ $(document).ready(function() {
     "content": {
       "text": "Es ist nichts schrecklicher als eine tätige Unwissenheit."
     },
-    "created_at": 1461113796368
+    "created_at": 146111845893457385347539873796368
   }
 ];
 
   function getTweetData(selectedTweet) {
     let days = Math.floor(selectedTweet.created_at / (1000*60*60*24)) % 7;
-    return `<article class="test"><header class="test"><img class="logo" src="${selectedTweet.user.avatars.regular}"><h1>${selectedTweet.user.name}</h1><h3>${selectedTweet.user.handle}</h3></header><p>${selectedTweet.content.text}</p><footer class="test"><span class="test"><i class="fas fa-share-square"></i><i class="fas fa-retweet"></i><i class="far fa-thumbs-up"></i></span><h4>${days} days ago</h4></footer></article>`
+    return `<article class="interactive"><header class="interactive"><img class="logo" src="${selectedTweet.user.avatars.regular}"><h1>${selectedTweet.user.name}</h1><h3>${selectedTweet.user.handle}</h3></header><p>${selectedTweet.content.text}</p><footer class="interactive"><span class="interactive"><i class="fas fa-share-square"></i><i class="fas fa-retweet"></i><i class="far fa-thumbs-up"></i></span><h4>${days} days ago</h4></footer></article>`
   }
 
   function renderTweets(tweets) {
