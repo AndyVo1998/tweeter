@@ -78,6 +78,9 @@ article:hover .test {
   opacity: 1;
 }
 
+article:hover {
+  border: 1px solid black;
+}
 
 /*.test {
   opacity: 1;
