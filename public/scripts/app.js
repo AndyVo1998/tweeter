@@ -30,7 +30,6 @@ $(document).ready(function() {
     return tweetArr;
   }
 
-
   $('#new-tweet form').on('submit', function(e){
     e.preventDefault();
     let rawTweet = $('#tweetfield').val();
@@ -41,7 +40,7 @@ $(document).ready(function() {
         loadAndRenderTweets();
       })
     } else {
-      alert("Tweet must be 0-140 characters!")
+      alert("Tweet must be 1-140 characters!")
     }
   })
 
@@ -52,8 +51,11 @@ $(document).ready(function() {
     })
   }
 
-
   loadAndRenderTweets();
+
+  $( ".compose" ).on("click", function() {
+    $( ".new-tweet" ).slideToggle("fast");
+  });
 });
 
 

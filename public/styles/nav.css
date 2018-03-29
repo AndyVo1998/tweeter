@@ -25,4 +25,21 @@
   font-size: 200%;
   line-height: 80px;
   height: 80px;
+  opacity: 1;
+}
+
+.compose {
+  float: right;
+  height: 60px;
+  margin-top: 9px;
+  border-radius: 5px;
+  width: 100px;
+  margin-right: 50px;
+  /*padding-left: 30px;*/
+}
+
+.compose:hover {
+  cursor: pointer;
+  border-color: black;
+  background-color: #e7fff5;
 }
