@@ -25,7 +25,7 @@ $(document).ready(function() {
     tweets.forEach(function(tweet) {
       // let tweetHTML = getTweetData(tweet);
       // $('.tweets-container').append(tweetHTML);
-      tweetArr.push(getTweetData(tweet))
+      tweetArr.unshift(getTweetData(tweet))
     })
     return tweetArr;
   }
@@ -35,11 +35,10 @@ $(document).ready(function() {
     e.preventDefault();
     let rawTweet = $('#tweetfield').val();
     if (rawTweet.length <= 140 && rawTweet) {
-      let text = $('#new-tweet form').serialize()
+      let text = $('#new-tweet form').serialize();
       $.post('/tweets', text).done(function() {
         $(".tweets-container").empty();
         loadAndRenderTweets();
-        console.log(rawTweet.length)
       })
     } else {
       alert("Tweet must be 0-140 characters!")
@@ -49,7 +48,7 @@ $(document).ready(function() {
   function loadAndRenderTweets() {
     $.get("/tweets").done(function(data) {
       var newData = renderTweets(data);
-      $('.tweets-container').append(newData)
+      $('.tweets-container').prepend(newData)
     })
   }
 
