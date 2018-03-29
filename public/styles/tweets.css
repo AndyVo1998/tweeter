@@ -72,6 +72,7 @@ span {
   opacity: 0;
   float: right;
   margin-top: 5px;
+  margin-right: 10px;
 }
 
 article:hover .interactive {
@@ -80,6 +81,10 @@ article:hover .interactive {
 
 article:hover {
   border: 1px solid black;
+}
+
+span:hover {
+  cursor: pointer;
 }
 
 /*.test {
