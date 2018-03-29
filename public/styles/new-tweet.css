@@ -1,6 +1,6 @@
 
 *{border: 1px solid #ff000000;}
-.new-tweet {
+#new-tweet {
   background-color: #80808021;
   margin: 1em;
   padding: 10px;
