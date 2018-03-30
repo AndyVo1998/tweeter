@@ -1,38 +1,41 @@
+* {
+    border: 1px solid #ff000000;
+}
 
-*{border: 1px solid #ff000000;}
 .new-tweet {
-  background-color: #80808021;
-  margin: 1em;
-  padding: 10px;
-  border-radius: 10px;
-  height: 150px;
-  border: 1px solid #0000002e;
-  display: none;
+    background-color: #80808021;
+    margin: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    height: 150px;
+    border: 1px solid #0000002e;
+    display: none;
 }
 
 h2 {
-  border-bottom: 1px solid black;
-  margin-top: 0px;
+    border-bottom: 1px solid black;
+    margin-top: 0px;
 }
 
 section textarea {
-  padding: 5px;
-  width: 100%;
-  border: 1px solid #0000002e
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #0000002e;
 }
 
 .counter {
-  float: right;
-  padding-right: 10px;
-  font-size: 85%;
-  font-style: italic;
+    float: right;
+    padding-right: 10px;
+    font-size: 85%;
+    font-style: italic;
+    margin-top: 7px;
 }
 
 section input {
-  float: left;
-  border: 1px solid #0000002e,
+    float: left;
+    border: 1px solid #0000002e,
 }
 
 section input:hover {
-  cursor: pointer;
+    cursor: pointer;
 }

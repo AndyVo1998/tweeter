@@ -1,53 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
-
     <!-- External CSS -->
     <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,700i" rel="stylesheet">
-
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/tweets.css" type="text/css" />
-
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
-
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/app.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</head>
 
-
-  </head>
-
-  <body>
-
+<body>
     <!-- Top nav bar (fixed) -->
     <nav id="nav-bar">
-      <img class="logo" src="/images/bird.png">
-      <span class="header">Tweeter</span>
-      <button class="compose" type="submit">Compose <i class="fas fa-edit"></i></button>
-
+        <img class="logo" src="/images/bird.png">
+        <span class="header">Tweeter</span>
+        <button class="compose" type="submit">Compose <i class="fas fa-edit"></i></button>
     </nav>
-
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <section class="new-tweet">
-        <h2>Compose Tweet</h2>
-        <form action="/tweets" method="POST" id="submitTweet">
-          <textarea id="tweetfield" name="text" placeholder="What are you humming about?"></textarea>
-          <input type="submit" value="Tweet">
-          <text class="counter">140</text>
-        </form>
-      </section>
-      <section class="tweets-container">
-      </section>
+        <section class="new-tweet">
+            <h2>Compose Tweet</h2>
+            <form action="/tweets" method="POST" id="submitTweet">
+                <textarea id="tweetfield" name="text" placeholder="What are you humming about?"></textarea>
+                <input type="submit" value="Tweet">
+                <text class="counter">140</text>
+            </form>
+        </section>
+        <section class="tweets-container">
+        </section>
     </main>
+</body>
 
-  </body>
 </html>

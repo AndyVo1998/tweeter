@@ -1,106 +1,90 @@
+* {
+    border: 1px solid #ff000000;
+}
 
-*{border: 1px solid #ff000000;}
 article {
-  background-color: white;
-  margin: 1em;
-  border-radius: 10px;
-  height: 150px;
-  border: 1px solid #0000002e;
+    background-color: white;
+    margin: 1em;
+    border-radius: 10px;
+    height: 150px;
+    border: 1px solid #0000002e;
 }
 
 header {
-  background-color: #80808021;
-  height: 3em;
-  width: 100%;
-  border-radius: 10px 10px 0px 0px;
-  opacity: 0.7;
+    background-color: #80808021;
+    height: 3em;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 0.7;
 }
 
 section textarea {
-  padding: 5px;
-  width: 100%;
-  border: 1px solid #0000002e
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #0000002e
 }
 
 h1 {
-  padding-left: 10px;
-  float: left;
-  font-size: 98%;
-  color: #244751a3;
+    padding-left: 10px;
+    float: left;
+    font-size: 98%;
+    color: #244751a3;
 }
 
 section input {
-  float: left;
-  border: 1px solid #0000002e
+    float: left;
+    border: 1px solid #0000002e
 }
 
 h3 {
-  color: #2447518a;
-  float: right;
-  font-size: 80%;
-  padding: 0px 10px 0px 0px;
+    color: #2447518a;
+    float: right;
+    font-size: 80%;
+    padding: 0px 10px 0px 0px;
 }
 
 footer {
-  height: 2em;
-  border-top: 1px solid #80808021;
-  opacity: 0.7;
+    height: 2em;
+    border-top: 1px solid #80808021;
+    opacity: 0.7;
 }
 
 h4 {
-  float: left;
-  font-size: 60%;
-  padding-left: 8px;
+    float: left;
+    font-size: 60%;
+    padding-left: 8px;
 }
 
 p {
-  height: 2em;
-  padding-left: 15px;
-  margin-top: 5%;
+    height: 2em;
+    padding-left: 15px;
+    margin-top: 5%;
 }
 
 img {
-  height: 40px;
-  width: 40px;
-  float: left;
- margin-top: 2.5px;
- margin-left: 10px;
- border-radius: 6px;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-top: 2.5px;
+    margin-left: 10px;
+    border-radius: 6px;
 }
 
 span {
-  opacity: 0;
-  float: right;
-  margin-top: 5px;
-  margin-right: 10px;
+    opacity: 0;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
 article:hover .interactive {
-  opacity: 1;
+    opacity: 1;
 }
 
 article:hover {
-  border: 1px solid black;
+    border: 1px solid black;
 }
 
 span:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
-
-/*.test {
-  opacity: 1;
-}*/
-/*article:hover footer {
-  opacity: 1;
-}
-
-article:hover span {
-  opacity: 1;
-}
-*/
-
-
-
-
-
-
