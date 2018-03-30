@@ -33,6 +33,7 @@ module.exports = function(DataHelpers) {
     };
 
     DataHelpers.saveTweet(tweet, (err) => {
+      console.log(tweet);
       if (err) {
         res.status(500).json({ error: err.message });
       } else {

@@ -4,9 +4,9 @@ $(document).ready(function() {
     let days = Math.floor(selectedTweet.created_at / (1000*60*60*24)) % 7;
     return `<article class="interactive">
               <header class="interactive">
-                <img class="logo" src="${escape(selectedTweet.user.avatars.regular)}">
+                <img class="logo" src="${selectedTweet.user.avatars.regular}">
                 <h1>${escape(selectedTweet.user.name)}</h1>
-                <h3>${escape(selectedTweet.user.handle)}</h3>
+                <h3>${selectedTweet.user.handle}</h3>
               </header>
                 <p>${escape(selectedTweet.content.text)}</p>
               <footer class="interactive">
