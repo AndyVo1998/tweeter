@@ -1,7 +1,7 @@
 * {
     border: 1px solid #ff000000;
 }
-
+/*individual tweet*/
 article {
     background-color: white;
     margin: 1em;
@@ -17,25 +17,20 @@ header {
     border-radius: 10px 10px 0px 0px;
     opacity: 0.7;
 }
-
+/*Tweet text*/
 section textarea {
     padding: 5px;
     width: 100%;
     border: 1px solid #0000002e
 }
-
+/*users full name*/
 h1 {
     padding-left: 10px;
     float: left;
     font-size: 98%;
     color: #244751a3;
 }
-
-section input {
-    float: left;
-    border: 1px solid #0000002e
-}
-
+/*handle*/
 h3 {
     color: #2447518a;
     float: right;
@@ -48,19 +43,19 @@ footer {
     border-top: 1px solid #80808021;
     opacity: 0.7;
 }
-
+/*posted when*/
 h4 {
     float: left;
     font-size: 60%;
     padding-left: 8px;
 }
-
+/*tweet*/
 p {
     height: 2em;
     padding-left: 15px;
     margin-top: 5%;
 }
-
+/*profile picture*/
 img {
     height: 40px;
     width: 40px;
@@ -69,7 +64,7 @@ img {
     margin-left: 10px;
     border-radius: 6px;
 }
-
+/*like, share, retweet*/
 span {
     opacity: 0;
     float: right;

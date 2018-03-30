@@ -19,13 +19,13 @@ $(document).ready(function() {
               </footer>
             </article>`
     }
-
+    //Denies scripts from running if entered in the new tweets field
     function escape(str) {
         var div = document.createElement('div');
         div.appendChild(document.createTextNode(str));
         return div.innerHTML;
     }
-
+    //
     function renderTweets(tweets) {
         let tweetArr = [];
         tweets.forEach(function(tweet) {
@@ -35,6 +35,7 @@ $(document).ready(function() {
     }
 
     $('.new-tweet form').on('submit', function(e) {
+        //prevents the page from refreshing after submitting the form
         e.preventDefault();
         let rawTweet = escape($('#tweetfield').val());
         if (rawTweet.length <= 140 && rawTweet) {

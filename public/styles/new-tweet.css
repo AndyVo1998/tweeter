@@ -11,18 +11,18 @@
     border: 1px solid #0000002e;
     display: none;
 }
-
+/*Compose tweet*/
 h2 {
     border-bottom: 1px solid black;
     margin-top: 0px;
 }
-
+/*Tweet field*/
 section textarea {
     padding: 5px;
     width: 100%;
     border: 1px solid #0000002e;
 }
-
+/*Character count*/
 .counter {
     float: right;
     padding-right: 10px;
@@ -30,7 +30,7 @@ section textarea {
     font-style: italic;
     margin-top: 7px;
 }
-
+/*submit button*/
 section input {
     float: left;
     border: 1px solid #0000002e,

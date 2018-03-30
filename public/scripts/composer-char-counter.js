@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+  //tracks the character count and updates the counter
     $("#tweetfield").bind("keydown", function() {
         var charCount = $(this).val().length;
         var counter = $(this).siblings("text.counter");
