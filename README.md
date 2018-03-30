@@ -14,5 +14,6 @@ A simple AJAX based Twitter clone that makes use of jQuery, HTML, CSS and MongoD
 - chance
 - express
 - mongodb
+- md5
 
 ## Screenshots

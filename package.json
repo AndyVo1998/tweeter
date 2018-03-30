@@ -19,9 +19,5 @@
   },
   "devDependencies": {
     "nodemon": "^1.17.2"
-    "body-parser"
-    "chance"
-    "express"
-    "mongodb"
   }
 }
