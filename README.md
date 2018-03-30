@@ -17,3 +17,5 @@ A simple AJAX based Twitter clone that makes use of jQuery, HTML, CSS and MongoD
 - md5
 
 ## Screenshots
+!["Screenshot showing compose box"](https://github.com/AndyVo1998/tweeter/blob/master/docs/Compose-Tweet.png?raw=true)
+!["Screenshot of tweets"](https://github.com/AndyVo1998/tweeter/blob/master/docs/Tweets.png?raw=true)
